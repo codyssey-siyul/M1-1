@@ -11,6 +11,7 @@ KOSIS의 자동차 및 트레일러 제조업 월별 데이터를 활용하여
 - 월별 계절성 분석
 - 가동률 원지수와 계절조정지수 비교
 - 이동평균, 전월 대비 변화율, 표준편차 활용
+- 가동률지수 시계열 분해를 통한 추세·계절성 분석
 
 ## 2. 프로젝트 구조
 
@@ -19,7 +20,13 @@ M1-1/
 ├─ data/
 │  ├─ automobile_manufacturing_indices_2015_2026.csv
 │  └─ raw/
+│     └─ KOSIS_제조업_생산능력_및_가동률지수_원본.csv
 ├─ images/
+│  ├─ 01_production_capacity_trend.png
+│  ├─ 02_utilization_major_changes.png
+│  ├─ 03_monthly_utilization_pattern.png
+│  ├─ 04_original_vs_seasonally_adjusted.png
+│  └─ 05_utilization_decomposition.png
 ├─ analysis.ipynb
 ├─ REPORT.md
 ├─ README.md
