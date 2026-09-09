@@ -28,19 +28,28 @@ M1-1/
 
 ## 3. 실행 방법
 
-### 3-1. 의존성 설치
+### 3-1. 개발 환경
+
+- Python 3.10 이상
+- Jupyter Notebook
+- 주요 Python 라이브러리는 `requirements.txt`에 명시
+
+### 3-2. 의존성 설치
+
+프로젝트 루트에서 다음 명령 실행
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3-2. Jupyter Notebook 실행
+### 3-3. Jupyter Notebook 실행
 
 ```bash
 jupyter notebook
 ```
 
 이후 `analysis.ipynb`를 열고 전체 셀을 순서대로 실행
+최종 제출 전 **Restart → Run All**을 통해 처음부터 마지막 셀까지 오류 없이 실행 확인
 
 ## 4. 결과 리포트
 
