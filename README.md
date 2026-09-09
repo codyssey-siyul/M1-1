@@ -48,8 +48,8 @@ pip install -r requirements.txt
 jupyter notebook
 ```
 
-이후 `analysis.ipynb`를 열고 전체 셀을 순서대로 실행
-최종 제출 전 **Restart → Run All**을 통해 처음부터 마지막 셀까지 오류 없이 실행 확인
+이후 `analysis.ipynb`를 열고 전체 셀을 순서대로 실행  
+최종 제출 전 **Restart → Run All**을 통해 처음부터 마지막 셀까지 오류 없이 실행 확인  
 
 ## 4. 결과 리포트
 
