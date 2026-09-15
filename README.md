@@ -33,15 +33,20 @@ M1-1/
 └─ requirements.txt
 ```
 
-## 3. 실행 방법
+## 3. GitHub 저장소
 
-### 3-1. 개발 환경
+- **Repository:** https://github.com/codyssey-siyul/M1-1
+- **Branch:** `main`
+
+## 4. 실행 방법
+
+### 4-1. 개발 환경
 
 - Python 3.10 이상
 - Jupyter Notebook
 - 주요 Python 라이브러리는 `requirements.txt`에 명시
 
-### 3-2. 의존성 설치
+### 4-2. 의존성 설치
 
 프로젝트 루트에서 다음 명령 실행
 
@@ -49,7 +54,7 @@ M1-1/
 pip install -r requirements.txt
 ```
 
-### 3-3. Jupyter Notebook 실행
+### 4-3. Jupyter Notebook 실행
 
 ```bash
 jupyter notebook
@@ -58,13 +63,14 @@ jupyter notebook
 이후 `analysis.ipynb`를 열고 전체 셀을 순서대로 실행  
 최종 제출 전 **Restart → Run All**을 통해 처음부터 마지막 셀까지 오류 없이 실행 확인  
 
-## 4. 결과 리포트
+## 5. 결과 리포트
 
 상세한 분석 과정, 시각화, 인사이트 및 한계점은 [`REPORT.md`](REPORT.md)에서 확인
 
-## 5. 데이터 출처
+## 6. 데이터 출처
 
 - **출처:** KOSIS 국가통계포털
 - **분석 대상:** 자동차 및 트레일러 제조업
 - **분석 기간:** 2015.01 ~ 2026.07
 - **데이터 수:** 139개월
+
