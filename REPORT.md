@@ -233,6 +233,8 @@
 
 ## 10. AI 사용 로그
 
+### AI 상호작용 로그: [`AI_INTERACTION_LOG.md`](AI_INTERACTION_LOG.md)
+
 본 과제 수행 과정에서 AI를 분석 보조 도구로 활용하였다.
 
 ### 사용 작업
